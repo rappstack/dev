@@ -1,0 +1,34 @@
+{
+	"name": "@rappstack/-rappstack-dev-bin",
+	"version": "0.0.0",
+	"private": true,
+	"description": "development bin files & scripts",
+	"type": "module",
+	"homepage": "https://github.com/rappstack/dev",
+	"bugs": {
+		"url": "https://github.com/rappstack/dev/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rappstack/dev.git"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"bin": {
+		"tmux-dev": "bin/tmux-dev.sh"
+	},
+	"scripts": {
+		"build": ":",
+		"clean": ":",
+		"exec": "$@"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"bun-types": "^1.0.26",
+		"ctx-core": "^5.38.1",
+		"typescript": "next"
+	},
+	"noUpdate": [],
+	"preferGlobal": true
+}
