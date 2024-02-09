@@ -1,48 +1,48 @@
 {
-	"name": "@rappstack/dev",
-	"version": "0.0.0",
-	"private": true,
-	"description": "rappstack (reactive app stack) development repo with submodules to all @rappstack repos",
-	"type": "module",
-	"keywords": [
-		"rappstack",
-		"reactive",
-		"full-stack"
-	],
-	"homepage": "https://github.com/rappstack/dev",
-	"bugs": {
-		"url": "https://github.com/rappstack/dev/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/rappstack/dev.git"
-	},
-	"license": "Apache-2.0",
-	"author": "Brian Takita",
-	"workspaces": {
-		"packages": [
-			"lib/*"
-		]
-	},
-	"scripts": {
-		"build": ":",
-		"clean": ":",
-		"exec": "$@"
-	},
-	"dependencies": {
-	},
-	"devDependencies": {
-		"@changesets/cli": "2.27.1",
-		"@rappstack/-rappstack-dev-bin": "workspace:*",
-		"@types/node": "^20.11.16",
-		"@typescript-eslint/eslint-plugin": "^6.21.0",
-		"@typescript-eslint/parser": "^6.21.0",
-		"bun-types": "^1.0.26",
-		"ctx-core": "^5.38.1",
-		"eslint": "^8.56.0",
-		"prettier": "3.2.5",
-		"typescript": "next"
-	},
-	"noUpdate": [],
-	"preferGlobal": true
+  "name": "@rappstack/dev",
+  "version": "0.0.0",
+  "private": true,
+  "description": "rappstack (reactive app stack) development repo with submodules to all @rappstack repos",
+  "type": "module",
+  "keywords": [
+    "rappstack",
+    "reactive",
+    "full-stack"
+  ],
+  "homepage": "https://github.com/rappstack/dev",
+  "bugs": {
+    "url": "https://github.com/rappstack/dev/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rappstack/dev.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Brian Takita",
+  "workspaces": {
+    "packages": [
+      "lib/*"
+    ]
+  },
+  "scripts": {
+    "build": ":",
+    "clean": ":",
+    "exec": "$@"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@changesets/cli": "2.27.1",
+    "@ctx-core/monorepo": "^21.4.36",
+    "@rappstack/-rappstack-dev-bin": "workspace:*",
+    "@types/node": "^20.11.16",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "bun-types": "^1.0.26",
+    "ctx-core": "^5.38.1",
+    "eslint": "^8.56.0",
+    "prettier": "3.2.5",
+    "typescript": "next"
+  },
+  "noUpdate": [],
+  "preferGlobal": true
 }
