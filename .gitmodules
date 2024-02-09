@@ -4,6 +4,9 @@
 [submodule "lib/domain--any--blog"]
 	path = lib/domain--any--blog
 	url = git@github.com:rappstack/domain--any--blog.git
+[submodule "lib/domain--browser"]
+	path = lib/domain--browser
+	url = git@github.com:rappstack/domain--browser.git
 [submodule "lib/domain--browser--blog"]
 	path = lib/domain--browser--blog
 	url = git@github.com:rappstack/domain--browser--blog.git
