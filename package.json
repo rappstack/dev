@@ -19,11 +19,9 @@
   },
   "license": "Apache-2.0",
   "author": "Brian Takita",
-  "workspaces": {
-    "packages": [
-      "lib/*"
-    ]
-  },
+  "workspaces": [
+    "lib/*"
+  ],
   "scripts": {
     "build": ":",
     "clean": ":",
