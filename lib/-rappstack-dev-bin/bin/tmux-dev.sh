@@ -3,7 +3,7 @@ DEV_DIR_DEFAULT=~/work/rappstack/rappstack-dev
 DEV_DIR="${DEV_DIR:-$DEV_DIR_DEFAULT}"
 
 cd $DEV_DIR
-tmux-rename-window.sh
+tmux rename-window rappstack
 tmux split-window -h $SHELL
 tmux split-window -v $SHELL
 tmux send-keys 'tig' 'C-m'

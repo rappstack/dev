@@ -19,6 +19,9 @@
 [submodule "lib/domain--server--blog"]
 	path = lib/domain--server--blog
 	url = git@github.com:rappstack/domain--server--blog.git
+[submodule "lib/domain--server--youtube"]
+	path = lib/domain--server--youtube
+	url = git@github.com:rappstack/domain--server--youtube.git
 [submodule "lib/ui--any"]
 	path = lib/ui--any
 	url = git@github.com:rappstack/ui--any.git
