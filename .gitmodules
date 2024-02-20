@@ -34,3 +34,6 @@
 [submodule "lib/ui--server--blog"]
 	path = lib/ui--server--blog
 	url = git@github.com:rappstack/ui--server--blog.git
+[submodule "lib/ui--server"]
+	path = lib/ui--server
+	url = git@github.com:rappstack/ui--server.git
