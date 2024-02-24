@@ -61,3 +61,6 @@
 [submodule "lib/persontric-adapter-prisma"]
 	path = lib/persontric-adapter-prisma
 	url = git@github.com:persontric/adapter-prisma.git
+[submodule "lib/dev-bin"]
+	path = lib/dev-bin
+	url = git@github.com:btakita/dev-bin.git
