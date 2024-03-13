@@ -58,6 +58,9 @@
 [submodule "lib/ui--any--blog"]
 	path = lib/ui--any--blog
 	url = git@github.com:rappstack/ui--any--blog.git
+[submodule "lib/ui--browser"]
+	path = lib/ui--browser
+	url = git@github.com:rappstack/ui--browser.git
 [submodule "lib/ui--browser--blog"]
 	path = lib/ui--browser--blog
 	url = git@github.com:rappstack/ui--browser--blog.git
