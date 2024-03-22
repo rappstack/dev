@@ -24,7 +24,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"bun-types": "^1.0.34",
+		"bun-types": "^1.0.35",
 		"ctx-core": "^6.6.2",
 		"typescript": "next"
 	},
