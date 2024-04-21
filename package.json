@@ -30,13 +30,13 @@
   "dependencies": {},
   "devDependencies": {
     "@changesets/cli": "2.27.1",
-    "@ctx-core/monorepo": "^21.4.101",
+    "@ctx-core/monorepo": "^21.4.103",
     "@rappstack/-rappstack-dev-bin": "workspace:*",
     "@types/node": "^20.12.7",
     "@typescript-eslint/eslint-plugin": "^7.7.0",
     "@typescript-eslint/parser": "^7.7.0",
     "bun-types": "^1.1.4",
-    "ctx-core": "^7.2.0",
+    "ctx-core": "^7.2.2",
     "eslint": "^9.1.0",
     "prettier": "3.2.5",
     "typescript": "next"
