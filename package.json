@@ -29,7 +29,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@changesets/cli": "2.27.3",
+    "@changesets/cli": "2.27.5",
     "@ctx-core/monorepo": "^21.4.120",
     "@rappstack/-rappstack-dev-bin": "workspace:*",
     "@types/node": "^20.12.12",
