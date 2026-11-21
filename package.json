@@ -39,7 +39,7 @@
     "ctx-core": "^7.2.27",
     "eslint": "^9.7.0",
     "prettier": "3.3.3",
-    "typescript": "next"
+    "typescript": "^7.0.2"
   },
   "noUpdate": [],
   "preferGlobal": true
